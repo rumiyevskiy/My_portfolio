@@ -1,0 +1,144 @@
+.wrapper{
+  width: 595px;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+}
+
+.column_left{
+  flex: 0 0 220px;
+  background: #5E5E5E;
+  padding: 20px;
+}
+
+.foto{
+  width: 180px;
+  height: 180px;
+  background: url(../img/20210404_162644.jpg) center/cover no-repeat;
+}
+
+.foto{
+  transition: border-radius 1s;
+}
+
+.foto:hover{
+  border-radius: 50%;
+}
+
+.skills_list{
+  padding: 5px 0 5px 0;
+  font: 10px/14px Roboto, sans-serif;
+  text-transform: uppercase;
+  margin: 20px 0 10px 0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+
+
+.skills_items{
+  font: 24px/29px Roboto, sans-serif;
+  color: #fff;
+}
+
+.skills_item{
+  transition-property: background, color; 
+  transition-duration: 1s;
+}
+
+.skills_item:hover{
+  background: yellow;
+  color: green;
+}
+
+.column_right{
+  flex-grow: 1;
+  background: #fff;
+  padding: 20px 0;
+}
+
+.name{
+  font: 25px/29px Roboto, sans-serif;
+  color: #222;
+  border-bottom: 2px solid #5E5E5E;
+  padding: 10px 20px;
+  transition-property: padding-left, border-radius; 
+  transition-duration: 0.5s; 
+  transition-delay: 0.1s; 
+  transition-timing-function: ease;
+}
+
+.name:hover{
+  padding-left: 20%;
+  border-radius: 50%;
+  transition-property: padding-left, border-radius; 
+  transition-duration: 1s; 
+  transition-delay: 0.1s; 
+  transition-timing-function: ease;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.content{
+  padding: 10px 20px;
+  flex: 1 0 auto;
+}
+
+.position{
+  font: 15px/18px Roboto, sans-serif;
+  color: #000;
+}
+
+.description{
+  font: 12px/14px Roboto, sans-serif;
+  color: #5E5E5E;
+  margin: 10px 0;
+}
+
+.content_list{
+  font: 12px/14px Roboto, sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  margin: 40px 0 10px;
+}
+
+.content_items{
+  margin: 10px 0;
+}
+
+.content_item{
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+  text-transform: capitalize;
+}
+
+.content_item:nth-of-type(2n){
+  color: #5E5E5E;
+}
+
+.content_item:nth-of-type(3n){
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+}
+
+.footer{
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0 20px 50px ;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #5E5E5E;
+}
